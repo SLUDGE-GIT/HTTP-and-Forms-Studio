@@ -4,16 +4,36 @@
 	<meta charset="utf-8">
 	<script>
 		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
+		window.addEventListener("load", function () {
+			// TODO: register the handler
+		});
 	</script>
 </head>
 
 <body>
 
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
+		<!-- TODO: add form elements -->
+		<input type="text" name="q" />
+
+
+		<input type="radio" url="https://www.google.com/search" value="google" />
+		<label>Google</label>
+
+
+
+		<input type="radio" url="https://duckduckgo.com/" value="duckDuckGo" />
+		<label>DuckDuckGo</label>
+
+
+		<input type="radio" url="https://www.bing.com/search" value="bing" />
+		<label>Bing</label>
+
+
+		<input type="radio" url="https://www.ask.com/web" value="ask" />
+		<label>Ask</label>
+		</input>
+<button type="submit" value="Go!" method = "get">Submit</button>
 	</form>
 
 </body>
